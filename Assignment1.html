@@ -1,0 +1,19 @@
+<template>
+    <div class="slds-var-p-around_small">
+    <lightning-input 
+      type="text"
+      label="FirstName"
+      value={firstName}
+      onchange={Changehandler}
+    ></lightning-input><br>
+    <lightning-input 
+    type="text"
+    label="LastName"
+    value={lastName} 
+    onchange={Changehandler}
+  ></lightning-input><br>
+</div>
+<template if:true={fullnameinCapital}>
+FullName In Capitalization is : {fullnameinCapital}
+</template>
+</template>

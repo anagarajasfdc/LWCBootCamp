@@ -29,7 +29,7 @@ function beforesubmit(event){
     alert("please check the reCAPTCHA box to submit the form");
     event.preventDefault();
   } 
-}
+} 
 function timestamp() { 
     var response = document.getElementById("g-recaptcha-response");
      if (response == null || response.value.trim() == "") {

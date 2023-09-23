@@ -28,7 +28,7 @@ function beforesubmit(event){
 	} else {
     alert("please check the reCAPTCHA box to submit the form");
     event.preventDefault();
-  }
+  } 
 }
 function timestamp() { 
     var response = document.getElementById("g-recaptcha-response");
